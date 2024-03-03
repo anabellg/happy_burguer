@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' ) }}">
+    <title>Happy Burguer</title>
+</head>
+<body>
+    <h1 class="title">{{titulo_pagina}}</h1>
+    <h2 class="subtitle">{{subtitulo_pagina}}</h2>
+
+    <ul class="main_menu">
+        {% for key in menu %}
+            <li><a href="/seleccion/{{ menu[key] }}">{{menu[key]}}</a>
+                <!-- <li><a href="/seleccion/">{{key, menu[key]}}</a> -->
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

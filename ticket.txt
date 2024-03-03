@@ -1,0 +1,11 @@
+HAPPY BURGUER 
+Pedido No. :24
+Cliente.: Rene
+Producto: Hamburguesa Gde
+Precio: 120.0
+Unidades: 3.0
+-----------------------------
+Total: 360.0
+-----------------------------
+GRACIAS POR SU COMPRA
+REGRESE PRONTO
